@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Get Node.js IncomingMessage from Hono context",
   "main": "dist/index.js",
+  "repository": "https://github.com/mkanenobu/hono-get-node-incoming-message",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
