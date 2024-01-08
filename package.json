@@ -1,6 +1,6 @@
 {
   "name": "hono-get-node-incoming-message",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get Node.js IncomingMessage from Hono context",
   "main": "dist/index.js",
   "repository": "https://github.com/mkanenobu/hono-get-node-incoming-message",
