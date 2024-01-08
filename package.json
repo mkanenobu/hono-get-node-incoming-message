@@ -1,0 +1,36 @@
+{
+  "name": "hono-get-node-incoming-message",
+  "version": "0.0.1",
+  "description": "Get Node.js IncomingMessage from Hono context",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "prerelease": "build"
+  },
+  "keywords": [
+    "hono",
+    "node"
+  ],
+  "author": "mkanenobu",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "tsup": "8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "@types/node": "^20.10.7",
+    "hono": "^3.12.0"
+  }
+}
